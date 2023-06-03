@@ -10,7 +10,6 @@ body:
       multiple: true
       options:
         - Garry's Mod
-      placeholder: Garry's Mod
     validations:
       required: true
   - type: textarea
