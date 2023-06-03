@@ -8,7 +8,6 @@ body:
     attributes:
       label: For?
       multiple: true
-      default: Garry's Mod
       options:
         - Garry's Mod
     validations:
