@@ -10,14 +10,15 @@ body:
       multiple: true
       options:
         - Garry's Mod
+      placeholder: Garry's Mod
     validations:
       required: true
   - type: textarea
-    id: what-cant-you-do
+    id: what-to-add
     attributes:
-      label: What can't you do?
-      description: Describe in detail what you're unable to currently do
-      placeholder: I'm unable to...
+      label: What do you want us to add?
+      description: Describe in detail what you're wanting us to add to the server.
+      placeholder: I'm wanting ...
     validations:
       required: true
   - type: textarea
@@ -26,16 +27,6 @@ body:
       label: How would you like it to work?
       description: Describe in detail how the feature should work
       placeholder: I want it to work by...
-    validations:
-      required: true
-  - type: textarea
-    id: tried
-    attributes:
-      label: What have you tried?
-      description: >-
-        Describe a few work arounds you have in place or what you have tried to
-        do thus far.
-      placeholder: I have tried...
     validations:
       required: true
   - type: textarea
